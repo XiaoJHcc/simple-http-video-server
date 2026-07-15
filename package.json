@@ -1,0 +1,17 @@
+{
+  "name": "simple-http-video-server",
+  "version": "1.0.0",
+  "description": "Simple HTTP video directory server for LAN/Tailscale",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
